@@ -13,7 +13,7 @@ export function Home() {
     id: '123',
     patrimony: '123456',
     when: '10/02/2022 às 15:00',
-    status: 'open',
+    status: 'closed',
   }]);
   const { colors } = useTheme();
 
@@ -80,7 +80,7 @@ export function Home() {
             </Center>
           )}
         />
-        <Button text='Nova solicitaação' onPress={handleNewOrder} />
+        <Button text='Nova solicitação' onPress={handleNewOrder} />
       </VStack>
 
     </VStack>
